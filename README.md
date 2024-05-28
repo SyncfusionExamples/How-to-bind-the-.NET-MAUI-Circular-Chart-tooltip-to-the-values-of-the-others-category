@@ -19,7 +19,7 @@ Create a custom tooltip template in XAML, consisting of a vertical stack layout 
 
 **Output**
 
-![CircularChartTooltip](https://github.com/SyncfusionExamples/How-to-bind-the-.NET-MAUI-Circular-Chart-tooltip-to-the-values-of-the-others-categorys/assets/113962276/0b68a8c0-e146-4e29-b4d9-a1951a0d88f7)
+![Presentation](https://github.com/SyncfusionExamples/How-to-bind-the-.NET-MAUI-Circular-Chart-tooltip-to-the-values-of-the-others-category/assets/113962276/40c8b5c5-a6c3-43ab-b0db-58d7e33e34ea)
 
 
 For a step-by-step procedure, refer to the Knowledge base: [How to bind the .NET MAUI Circular Chart tooltip to the values of the "Others" category(SfCircularChart)?]()
