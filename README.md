@@ -9,10 +9,6 @@ The [.NET MAUI Circular Charts](https://www.syncfusion.com/maui-controls/maui-ci
 
 Create a custom tooltip template in XAML, consisting of a vertical stack layout with a bindable layout for dynamic data population.
 
-**Implement Converters**
-
- Develop C# converters to handle data manipulation and formatting for the tooltip, including managing the tooltip data and formatting text based on selected group mode.
-
 **Integrate Custom Tooltip with the Chart**
 
  Incorporate the custom tooltip template into the circular chart by assigning the TooltipTemplate property of the chart series.
