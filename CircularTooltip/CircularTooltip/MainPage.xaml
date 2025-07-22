@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Toolkit.Charts;assembly=Syncfusion.Maui.Toolkit"
              xmlns:local="clr-namespace:CircularTooltip"
              x:Class="CircularTooltip.MainPage"
              Background="#4158DB">
@@ -38,7 +38,7 @@
     </ContentPage.Resources>
 
     <Frame BackgroundColor="White" CornerRadius="50" Margin="10">
-        <chart:SfCircularChart x:Name="Chart"  VerticalOptions="FillAndExpand">
+        <chart:SfCircularChart x:Name="Chart"  VerticalOptions="Fill">
             <chart:SfCircularChart.Title>
                 <Label Text="World Economy in 2021" FontAttributes="Bold" Margin="0,0,6,10" HorizontalOptions="Fill" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="16" TextColor="Black"/>
             </chart:SfCircularChart.Title>
