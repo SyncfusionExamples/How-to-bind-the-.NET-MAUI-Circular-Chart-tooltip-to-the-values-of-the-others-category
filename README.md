@@ -146,9 +146,8 @@ Finally, we add the custom tooltip template to the Circular Chart by setting the
 **XAML**
  ```XAML
 <!-- XAML Circular Chart -->
-<chart:PieSeries ShowDataLabels="True" TooltipTemplate="{StaticResource tooltipTemplate}" 
+<chart:PieSeries TooltipTemplate="{StaticResource tooltipTemplate}" 
                  GroupTo="10"
-                 PaletteBrushes="{Binding CustomBrushes}"
                  ItemsSource="{Binding GroupToData}" XBindingPath="Name" YBindingPath="Value">
 </chart:PieSeries>
 
@@ -162,4 +161,6 @@ Finally, we add the custom tooltip template to the Circular Chart by setting the
 **Path too long exception**
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
+For more details, refer to the KB on [how to bind the .NET MAUI Circular Chart tooltip to the values of the others categorys]()
 
