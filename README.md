@@ -147,7 +147,7 @@ Finally, we add the custom tooltip template to the Circular Chart by setting the
  ```XAML
 <!-- XAML Circular Chart -->
 <chart:PieSeries TooltipTemplate="{StaticResource tooltipTemplate}" 
-                 GroupTo="10"
+                 GroupTo="10" EnableTooltip="True"
                  ItemsSource="{Binding GroupToData}" XBindingPath="Name" YBindingPath="Value">
 </chart:PieSeries>
 
