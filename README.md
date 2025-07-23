@@ -162,5 +162,5 @@ Finally, we add the custom tooltip template to the Circular Chart by setting the
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [how to bind the .NET MAUI Circular Chart tooltip to the values of the others categorys]()
+For more details, refer to the KB on [how to bind the .NET MAUI Circular Chart tooltip to the values of the others categorys](https://support.syncfusion.com/kb/article/15959/how-to-bind-the-net-maui-circular-chart-tooltip-to-the-values-of-the-others-categorysfcircularchart)
 
